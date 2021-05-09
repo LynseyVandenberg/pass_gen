@@ -14,7 +14,6 @@ function generatePassword() {
   var passLength = prompt("Enter a password length between 8 and 128 characters.");
 
   var lengthConfirm = parseInt(passLength);
-  console.log(lengthConfirm);
 
   //This forces the user to choose an integer between 8 and 128 characters only
   if (passLength < 8 || passLength > 128 || isNaN(passLength)) {
